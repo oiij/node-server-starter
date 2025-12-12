@@ -26,19 +26,14 @@
     "postinstall": "npx simple-git-hooks"
   },
   "dependencies": {
-    "@vue/reactivity": "^3.5.25",
-    "bcrypt": "^6.0.0",
     "express": "^5.2.1",
     "h3": "2.0.1-rc.6",
-    "jsonwebtoken": "^9.0.3",
-    "nanoid": "^5.1.6",
     "ws": "^8.18.3"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^6.6.1",
     "@eiog/ts-config": "^0.0.3",
     "@types/express": "^5.0.6",
-    "@types/jsonwebtoken": "^9.0.10",
     "@types/node": "^25.0.1",
     "@types/ws": "^8.18.1",
     "chalk": "^5.6.2",
@@ -48,10 +43,8 @@
     "czg": "^1.12.0",
     "eslint": "^9.39.1",
     "lint-staged": "^16.2.7",
-    "listhen": "^1.9.0",
     "simple-git-hooks": "^2.13.1",
     "taze": "^19.9.2",
-    "tsup": "^8.5.1",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",
     "vercel": "^50.0.0",
