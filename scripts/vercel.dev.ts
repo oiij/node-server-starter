@@ -1,8 +1,8 @@
+import { readdirSync, statSync } from 'node:fs'
 import { createServer } from 'node:http'
-import process from 'node:process'
 import { resolve } from 'node:path'
 
-import { readdirSync, statSync } from 'node:fs'
+import process from 'node:process'
 import express, { Router } from 'express'
 
 const PORT = process.env.PORT || 5631

@@ -1,9 +1,9 @@
 /* eslint-disable no-console */
-import process from 'node:process'
 import type { IncomingMessage } from 'node:http'
 import type { WebSocket } from 'ws'
-import { WebSocketServer } from 'ws'
+import process from 'node:process'
 import { ref } from '@vue/reactivity'
+import { WebSocketServer } from 'ws'
 import { useJWT } from './utils/jwt'
 
 const { sign, verify, decode } = useJWT(true)
@@ -14,7 +14,7 @@ console.log(token)
 console.log(jwt)
 console.log(decoded)
 
-const PORT = Number(process.env.PORT) || 5631
+const PORT = Number(process.env.PORT) || 5633
 const count = ref(0)
 const connections = new Map<WebSocket, IncomingMessage['headers']>()
 
